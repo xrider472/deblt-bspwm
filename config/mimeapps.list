@@ -1,0 +1,26 @@
+[Added Associations]
+application/x-shellscript=geany.desktop;
+application/pdf=org.kde.okular.desktop;
+x-scheme-handler/http=brave.desktop;
+x-scheme-handler/https=brave.desktop;
+image/png=org.xfce.ristretto.desktop;
+image/jpeg=org.xfce.ristretto.desktop;
+application/toml=geany.desktop;
+text/plain=geany.desktop;
+text/x-csrc=geany.desktop;
+application/x-theme=geany.desktop;
+text/x-matlab=geany.desktop;
+application/epub+zip=org.kde.arianna.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;libreoffice-writer.desktop;
+application/x-trash=geany.desktop;
+application/json=geany.desktop;
+
+[Default Applications]
+application/pdf=org.kde.okular.desktop
+application/epub=org.kde.okular.desktop
+x-scheme-handler/http=brave.desktop
+x-scheme-handler/https=brave.desktop
+image/png=org.xfce.ristretto.desktop
+image/jpeg=org.xfce.ristretto.desktop
+application/x-trash=geany.desktop
