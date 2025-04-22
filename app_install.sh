@@ -22,8 +22,8 @@ sudo apt install -y bspwm sxhkd rofi dunst polybar picom i3lock-fancy
 # /etc/X11/xorg.conf.d/20-intel.conf
 
 # Microcode for Intel/AMD 
-sudo apt install -y amd64-microcode
-# sudo apt install -y intel-microcode 
+# sudo apt install -y amd64-microcode
+sudo apt install -y intel-microcode 
 
 # Network Manager
 sudo apt install -y network-manager-gnome
@@ -90,15 +90,15 @@ sudo apt install -y micro
 sudo apt install -y fonts-font-awesome fonts-liberation2 fonts-terminus ttf-mscorefonts-installer
 
 # Flatpak
-#sudo apt install flatpak -y
-#flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-#flatpak install flathub com.brave.Browser -y
-#flatpak install flathub com.github.unrud.VideoDownloader -y
-#flatpak install flathub com.system76.Popsicle -y
-#flatpak install flathub io.freetubeapp.FreeTube -y
-#flatpak install flathub net.pcsx2.PCSX2 -y
-#flatpak install flathub org.x.Warpinator -y
-#flatpak install flathub com.github.tchx84.Flatseal -y
+sudo apt install flatpak -y
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.brave.Browser -y
+flatpak install flathub com.github.unrud.VideoDownloader -y
+flatpak install flathub com.system76.Popsicle -y
+flatpak install flathub io.freetubeapp.FreeTube -y
+flatpak install flathub net.pcsx2.PCSX2 -y
+flatpak install flathub org.x.Warpinator -y
+flatpak install flathub com.github.tchx84.Flatseal -y
 
 
 ########################################################
